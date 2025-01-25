@@ -3,6 +3,9 @@ package bankapp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @SpringBootApplication
 public class BankApplication {
 
@@ -11,7 +14,9 @@ public class BankApplication {
     }
     User NoBody = new User(12345L,"Marek", 100000.0);
 
-    userList.add(user NoBody);
+    List<User> userList = new ArrayList<>()
+
+    userList.add(User NoBody);
 
     for (User user : userList) {
     System.out.println(user);
