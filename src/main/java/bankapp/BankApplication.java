@@ -16,11 +16,9 @@ public class BankApplication {
 
     List<User> userList = new ArrayList<>()
 
-    userList.add(User NoBody);
+    userList.
 
-    for (User user : userList) {
-    System.out.println(user);
-    }
+
 
 
 }
